@@ -1,0 +1,36 @@
+/* min width is like whatever the post is or anything that is inside of that
+container it has fit as a minimum width  and flow is use to flow in vertical direction 
+*/
+
+.feed {
+    flex: 0.4;
+    border-right: 1px solid #334756;
+    min-width: fit-content;
+    overflow-y: scroll; 
+    /* max-width: 300px; */
+}
+
+/* Hide scroll bar for chrome, safari and opera */
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.feed {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.feed__header{
+    position: sticky; /*so it the item is stick to header one position*/
+    top: 0;
+    background-color: var(--twitter-background);
+    z-index: 100;
+    border: 1px solid #334756;
+    padding: 15px 20px; /* 15 px top and bottom, 20px from left and right*/
+}
+
+.feed__header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}

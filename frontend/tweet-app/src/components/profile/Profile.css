@@ -1,0 +1,44 @@
+.profile__badge {
+    font-size: 30px !important;
+    color: var(--twitter-color);
+}
+
+.profile__avatar{
+    margin-top: 120px;
+}
+
+
+.profile{
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    
+}
+
+.profile__heade{
+    font-size: 60px;
+}
+
+.profile__headerSpecial {
+    font-weight: 600;
+    
+    color: grey;
+}
+
+
+.profile__detailHeader{
+    font-size: 40px;
+}
+
+.profile__detailBadge{
+    font-size: 25px !important;
+    /* color: var(--twitter-color); */
+}
+
+
+.profile__detailHeaderSpecial{
+    font-weight: 600;
+    
+    color: grey;
+}
+

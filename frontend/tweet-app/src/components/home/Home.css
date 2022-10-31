@@ -1,0 +1,9 @@
+.home{
+  display: flex;
+  height: 100%;
+  max-width: 1300px;
+  margin-left: 10px;
+  margin-right: auto;
+  padding: 0 10px;
+
+}

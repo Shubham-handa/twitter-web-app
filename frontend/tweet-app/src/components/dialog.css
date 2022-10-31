@@ -1,0 +1,12 @@
+.tweet__replyButton{
+    color: #FFFFFF;
+}
+
+.tweet__replyButton:hover{
+    color:#50b7f5;
+}
+
+.dialog__box{
+    background-color: #141d26;
+    color:aqua;
+}

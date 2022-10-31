@@ -1,0 +1,35 @@
+/* this is providing container a shape called flex */
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* 
+using css variable for colour changing */
+
+.sidebarOption:hover {
+    background-color: #334756;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+/* this thing tells like if you find materia9l ui component child inside the sidebarOption
+please provide padding to it */
+
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+    
+}
+
+
+.sidebarOption > h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.sidebarOption--active {
+    color: var(--twitter-color);
+}

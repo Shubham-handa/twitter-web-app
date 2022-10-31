@@ -1,0 +1,72 @@
+/* .login{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 500px;
+    align-content: space-between;
+} */
+
+
+.login{
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.login__header{
+    border-right:1px solid #334756;
+    height: 300px;
+    justify-content:center;
+    align-items:center;
+}
+
+.login__twitterIcon{
+    color: var(--twitter-color);
+    font-size: 40px !important;
+    margin-left: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.signIn__button{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight:900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+
+
+.signUp__button{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight:900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+
+.login__notAccountButton{
+    margin-left: 100px;
+}
+
+
+
+
+.imageButtonIcon{
+    cursor: pointer;
+}
+
+
+.imageButtonIcon:hover{
+    color: var(--twitter-color);
+}
+
+.imageuploader__header{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
